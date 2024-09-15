@@ -4,7 +4,7 @@ function Price({ food }) {
   return (
     <div className="price-set">
       <div className="image">
-        <img src={`./src/assets/${food.image}`} alt={food.name} />
+        <img src={`./src/assets/images/${food.image}`} alt={food.name} />
       </div>
       <div className="left">
         <p>{food.name}</p>

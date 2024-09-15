@@ -40,7 +40,7 @@ function Card({ food_item, handleProduct }) {
   return (
     <div className="container">
       <div className="food-image">
-        <img src={`./src/assets/${food_item.src}`} alt={food_item.name} />
+        <img src={`./src/assets/images/${food_item.src}`} alt={food_item.name} />
       </div>
       <div className="description">
         <div className="cart-option">
