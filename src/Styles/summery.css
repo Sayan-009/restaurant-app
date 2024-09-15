@@ -1,0 +1,38 @@
+.outside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.food-list{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.outside > .total{
+    background-color: white;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.order{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    align-self: center;
+}
+.message{
+    text-align: center;
+    padding-top: 100px 0px;
+    color: red;
+    font-size: 25px;
+    width: 400px;
+    height: 100vh;
+}

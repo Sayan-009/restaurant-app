@@ -1,0 +1,70 @@
+.container {
+    width: 190px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 10px rgb(185, 184, 184);
+  }
+  .food-image {
+      width: 190px;
+      height: 200px;
+      border-radius: 10px 10px 0px 0px;
+      overflow: hidden;
+  }
+  .food-image > img {
+    width: 100%;
+    height: 100%;
+  }
+  .container > .description {
+    padding: 1rem;
+    line-height: 24px;
+  }
+  .food-image:hover img{
+      transform: scale(1.2);
+      transition-duration: 0.2s;
+      transition-timing-function: linear;
+  }
+  .description{
+      position: relative;
+      height: 130px;
+  }
+  .description .cart-option{
+      position: absolute;
+      top: -17px;
+      left: 38px;
+  }
+  
+  .cart-option > button{
+      align-items: center;
+      font-weight: 600;
+      cursor: pointer;
+      width: 100px;
+      height: 35px;
+      border-radius: 10px;
+      background-color: white;
+      border: 1px solid rgb(215, 30, 6);
+      color: red;
+  }
+  .button-inside{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .button-inside > button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(215, 30, 6);
+  }
+  .description > .type{
+      opacity: 0.7;
+      font-size: 20px;
+  }
+  .description > .name{
+      font-size: 25px;
+  }
+  .description > .price{
+      color: orangered;
+      font-size: 20px;
+      position: relative;
+      bottom: -15px;
+  }
+  

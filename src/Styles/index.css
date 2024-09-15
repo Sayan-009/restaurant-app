@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.product-area{
+  display: flex;
+  gap: 2rem;
+  margin: 4rem 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.price-summery{
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  align-self: flex-start;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.price-summery > button{
+  padding: 10px 15px;
+  align-self: flex-end;
+  background-color: rgb(215, 30, 6);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+@media  (max-width: 500px) {
+  .price-summery{
+    width: 100%;
+    min-height: 100vh;
+    justify-content: flex-start;
+  }
+}
+
+
